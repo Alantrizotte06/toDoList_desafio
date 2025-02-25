@@ -1,0 +1,38 @@
+.content {
+  display: flex;
+  flex: 1;
+  padding-top: 1rem;
+
+ align-items: center;
+ justify-content: space-between;
+}
+
+.content aside {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+
+  font-weight: bold;
+}
+
+.content aside:first-child {
+  color: var(--blue);
+}
+
+.content aside:last-child {
+  color: var(--purple);
+}
+
+.content aside p {
+  font-size: .875rem;
+}
+
+.content aside span {
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+  border-radius: 1rem;
+
+  font-size: 0.75rem;
+
+  padding: .25rem .5rem;
+}
